@@ -1,0 +1,13 @@
+@import "variables";
+
+.navbar{
+    border:solid 5px #000;
+    padding: 0.5rem;
+    .navbar-item{
+        .navbar-brand{
+            color:$primary-color ;
+            font-size: 40px;
+            font-weight: 400;
+        }            
+    }
+}
